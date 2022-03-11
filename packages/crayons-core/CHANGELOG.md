@@ -3,6 +3,213 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 3.0.0-beta.31 (2022-03-11)
+
+
+### Bug Fixes
+
+* **accordion:** add watcher for expanded attribute ([#408](https://github.com/arvindanta/cr-test/issues/408)) ([06cf48f](https://github.com/arvindanta/cr-test/commit/06cf48f6e94d417808c84065004454d02a419267))
+* **accordion:** added pointed cursor to accordion title ([#392](https://github.com/arvindanta/cr-test/issues/392)) ([d1e792c](https://github.com/arvindanta/cr-test/commit/d1e792caaf6f44d4ec4247e312c955f37a73a701))
+* **button-group:** use correct units for margin-left ([#301](https://github.com/arvindanta/cr-test/issues/301)) ([db50bc7](https://github.com/arvindanta/cr-test/commit/db50bc7296eac56ee6ec3a6ff065da2978c1b58e))
+* **checkbox:** fix checkbox disabled state color ([#409](https://github.com/arvindanta/cr-test/issues/409)) ([83119dc](https://github.com/arvindanta/cr-test/commit/83119dcacba9035146ee6f83147876f653a0e674))
+* **checkbox:** Fix checkbox event emission ([#382](https://github.com/arvindanta/cr-test/issues/382)) ([2ee8d43](https://github.com/arvindanta/cr-test/commit/2ee8d43b1516971d0141a70e8b966c60b5bb0ad8))
+* **checkbox:** fix checkbox styles based on style guide ([#406](https://github.com/arvindanta/cr-test/issues/406)) ([cb85870](https://github.com/arvindanta/cr-test/commit/cb85870befc8d0f24ba94d8a1a4bcb1a5cb4984b))
+* **checkbox:** fix cursor style for disabled state ([#412](https://github.com/arvindanta/cr-test/issues/412)) ([16391c5](https://github.com/arvindanta/cr-test/commit/16391c57f1a92d1a8d97d569ef92fbb74ed076eb))
+* **checkbox:** remove class from host to avoid getting overridden by global styles ([#308](https://github.com/arvindanta/cr-test/issues/308)) ([0e37f57](https://github.com/arvindanta/cr-test/commit/0e37f576676727db5027742262d313d2b6e7c373))
+* **component-style-fixes:** modal style, label style, toggle icon button fixes as per DSM ([#404](https://github.com/arvindanta/cr-test/issues/404)) ([78d7ebf](https://github.com/arvindanta/cr-test/commit/78d7ebf21b17f4b75a21ddfb9729e0554a5c863c))
+* **crayons:** modal -  focus lock issue fix ([34edf7f](https://github.com/arvindanta/cr-test/commit/34edf7fd98999c642c7972085fe187084546d46c))
+* **crayons:** modal - custom header to anyways show close option ([bc5a905](https://github.com/arvindanta/cr-test/commit/bc5a905cab24cb87b740da249721ea3c8e2ef2e0))
+* **crayons:** modal - documentation fix for button disabled option ([528a25d](https://github.com/arvindanta/cr-test/commit/528a25d4400045fe8fcabe59e10fb8103639f36c))
+* **crayons:** modal - escapehandler setting to null ([e2014e7](https://github.com/arvindanta/cr-test/commit/e2014e74ee58c17dd6a340277aa41040d293c98c))
+* **crayons:** modal - modifying testcase names for custom attributes ([9bce580](https://github.com/arvindanta/cr-test/commit/9bce580a3ef2c8a4e5dcd5ab59252f8f247ac3a2))
+* **crayons:** modal - remove escape handler ([6305906](https://github.com/arvindanta/cr-test/commit/630590630c94138874ec0aefc6684e7fc758a8c0))
+* **crayons:** modal - reverting event renaming changes as we decided to retain camelcase for events ([1512383](https://github.com/arvindanta/cr-test/commit/151238391900f8fdf08161750888e8b473b2c0c4))
+* **crayons:** modal - Using componentWillLoad instead of componentWillRender event ([4772e14](https://github.com/arvindanta/cr-test/commit/4772e14ab46e888e28a90ecedaff868088ffc3c2))
+* **data-table:** adding cell variants as dependency to data-table ([#443](https://github.com/arvindanta/cr-test/issues/443)) ([25dc39d](https://github.com/arvindanta/cr-test/commit/25dc39d99f0f9e7e71284368799f2e54679970e0))
+* **data-table:** adding localStorage permissions check before using it ([#453](https://github.com/arvindanta/cr-test/issues/453)) ([0bcdb40](https://github.com/arvindanta/cr-test/commit/0bcdb402d71a76deba8e81e6c7f2a139347f09bd))
+* **data-table:** fix for table setting moving on horizontal scroll ([#427](https://github.com/arvindanta/cr-test/issues/427)) ([d569801](https://github.com/arvindanta/cr-test/commit/d569801cf2fe14c15e17366243603bfb48d34420))
+* **data-table:** fw-tooltip on hovering over data-table row action buttons ([#447](https://github.com/arvindanta/cr-test/issues/447)) ([7e00fd6](https://github.com/arvindanta/cr-test/commit/7e00fd6012d38a34dbdf355db63ec1c4f1500c43))
+* **data-table:** isloading as mutable property ([#420](https://github.com/arvindanta/cr-test/issues/420)) ([2ef8029](https://github.com/arvindanta/cr-test/commit/2ef8029498e4d597ce65c3803b9527dab5623bd5))
+* **data-table:** row hover cursor pointer fix ([#398](https://github.com/arvindanta/cr-test/issues/398)) ([823e3ca](https://github.com/arvindanta/cr-test/commit/823e3ca8e51f95cd1c9f164fc6bc048ada175e93))
+* **data-table:** rowActions async skelton appearing ([#390](https://github.com/arvindanta/cr-test/issues/390)) ([db09876](https://github.com/arvindanta/cr-test/commit/db09876c271e61d7189c7af01024d0a779188635))
+* **datepicker:** add stopImmediatePropagation and refactor code ([#348](https://github.com/arvindanta/cr-test/issues/348)) ([7ed726a](https://github.com/arvindanta/cr-test/commit/7ed726ab12f510c02ab96a067363d3b9fbda6b44))
+* **datepicker:** fix auto close on datepicker on tab ([#339](https://github.com/arvindanta/cr-test/issues/339)) ([41711f6](https://github.com/arvindanta/cr-test/commit/41711f6fd2cfe6d8263af1b36a961b61db9c5651))
+* **datepicker:** fix blur event emit and trigger for show datepicker popup ([#437](https://github.com/arvindanta/cr-test/issues/437)) ([b1254ed](https://github.com/arvindanta/cr-test/commit/b1254ed581970358af28b646d08196244b012121))
+* **datepicker:** fix datepicker behaviour after event standardisation ([#431](https://github.com/arvindanta/cr-test/issues/431)) ([d74a235](https://github.com/arvindanta/cr-test/commit/d74a23542a102940bd0628ab4eaa5365ba040bbb))
+* **datepicker:** fix datepicker month/year updates ([#397](https://github.com/arvindanta/cr-test/issues/397)) ([1248ee8](https://github.com/arvindanta/cr-test/commit/1248ee8e2585d87757aa269966dedb867ace5256))
+* **datepicker:** fix placeholder for popover trigger ([#469](https://github.com/arvindanta/cr-test/issues/469)) ([c166384](https://github.com/arvindanta/cr-test/commit/c1663843e022eb37c5624f89a1d86ca6d0e761b2))
+* **event-changes:** updated the components to follow event standards ([#433](https://github.com/arvindanta/cr-test/issues/433)) ([b783d7c](https://github.com/arvindanta/cr-test/commit/b783d7c1d230ea2425e37251cc71b6c933b9523b))
+* fixing value type and code cleanup ([245f973](https://github.com/arvindanta/cr-test/commit/245f973a1e08b0f3ccc2415bed478d2362a7a3d3))
+* **fw-datepicker:** added more placement options ([#262](https://github.com/arvindanta/cr-test/issues/262)) ([0a2f7b5](https://github.com/arvindanta/cr-test/commit/0a2f7b5f3073ba31d1a1e9663e6afe2d848cd573))
+* **fw-datepicker:** handle cancel and popover hide usecase and added readonly prop ([#440](https://github.com/arvindanta/cr-test/issues/440)) ([8ec4011](https://github.com/arvindanta/cr-test/commit/8ec40115385f2021a62a1942ef2a913949119f51))
+* **fw-drag-container:** drag container now supports dynamic and nested child items  ([#383](https://github.com/arvindanta/cr-test/issues/383)) ([03b0d64](https://github.com/arvindanta/cr-test/commit/03b0d6478c35623433b1b6557837e66603bade42))
+* **fw-drag-container:** fixed the drag issue in safari  ([#403](https://github.com/arvindanta/cr-test/issues/403)) ([154b51f](https://github.com/arvindanta/cr-test/commit/154b51fd9decf0699343c98ae6c56a03a8b212b0))
+* **fw-drag-container:** fixed the insertElement issue on Drop ([#435](https://github.com/arvindanta/cr-test/issues/435)) ([a08ed51](https://github.com/arvindanta/cr-test/commit/a08ed51d0a306027335f3cd9002141300c787e56))
+* **fw-form:** handle relationship type in form render ([#394](https://github.com/arvindanta/cr-test/issues/394)) ([f3b3f52](https://github.com/arvindanta/cr-test/commit/f3b3f5277aa1bad6de8ac8aa850ec33a0043b665))
+* **fw-input:** adjust input styles for icons ([#329](https://github.com/arvindanta/cr-test/issues/329)) ([f7250fc](https://github.com/arvindanta/cr-test/commit/f7250fce3ea75e1ba858ee37b5fc3df851437b06))
+* **fw-input:** fix fw-input cursor resetting on typing `.` for decimal input ([#434](https://github.com/arvindanta/cr-test/issues/434)) ([4a915de](https://github.com/arvindanta/cr-test/commit/4a915de37c4351efb80e7b7be29d8afa054f8bfa))
+* **fw-input:** fixed the flex-flow bug when width is <= 200px ([#417](https://github.com/arvindanta/cr-test/issues/417)) ([db45160](https://github.com/arvindanta/cr-test/commit/db451606ae449d0ce5b94fc1dc2e2a8cf34aa72f))
+* **fw-input:** fixed the hint/error text padding ([#428](https://github.com/arvindanta/cr-test/issues/428)) ([e2ddce5](https://github.com/arvindanta/cr-test/commit/e2ddce569c9aaaefbac9ea4e3dca9e44f7a392cd))
+* **fw-input:** fixed the transparent background color of input ([#410](https://github.com/arvindanta/cr-test/issues/410)) ([cc04ec0](https://github.com/arvindanta/cr-test/commit/cc04ec0374a7164dd60cc335d2bd4469dd8f0585))
+* **fw-input:** handle decimal input usecase ([#396](https://github.com/arvindanta/cr-test/issues/396)) ([56ff3d3](https://github.com/arvindanta/cr-test/commit/56ff3d3ea0c45e57a92d2370162ba7f204ba7385))
+* **fw-pagination:** End value not updated on total prop change ([#400](https://github.com/arvindanta/cr-test/issues/400)) ([549bf84](https://github.com/arvindanta/cr-test/commit/549bf84632c7b00c9b07e427f13354061ee2bdde))
+* **fw-popover:** null check ([#278](https://github.com/arvindanta/cr-test/issues/278)) ([515a7a9](https://github.com/arvindanta/cr-test/commit/515a7a9d73cf9c4f87a7f4ea593bdbc6d4cffe8d))
+* **fw-select-option, fw-textarea:** fixed the styles ([#450](https://github.com/arvindanta/cr-test/issues/450)) ([ab3a5a4](https://github.com/arvindanta/cr-test/commit/ab3a5a40f31048b5db58aacc23c8f5a5e43d51ba))
+* **fw-select:** fixed the padding issue on multi-select ([#407](https://github.com/arvindanta/cr-test/issues/407)) ([f365462](https://github.com/arvindanta/cr-test/commit/f36546203a54aa8d3af2a2347dbe5b83d2129d13))
+* **fw-select:** handled undefined / invalid value scenarios ([#354](https://github.com/arvindanta/cr-test/issues/354)) ([148cda8](https://github.com/arvindanta/cr-test/commit/148cda8140dfe6403555153714d7c7ee50872952))
+* **fw-select:** Modified the color of the state text based on the state ([#446](https://github.com/arvindanta/cr-test/issues/446)) ([642e028](https://github.com/arvindanta/cr-test/commit/642e028714f27319b8585d79bd8ea66b84785295))
+* **fw-tag:** fixed the style based on DSM ([#405](https://github.com/arvindanta/cr-test/issues/405)) ([6ec87f1](https://github.com/arvindanta/cr-test/commit/6ec87f199715097dc1a26edccf71435d4f119c42))
+* **fw-tag:** font size and padding fix ([#376](https://github.com/arvindanta/cr-test/issues/376)) ([c6ad237](https://github.com/arvindanta/cr-test/commit/c6ad2375e903f188198fa662500c0623227ac81b))
+* **fw-tag:** removed reflect for attributes and added int support([#385](https://github.com/arvindanta/cr-test/issues/385)) ([1220363](https://github.com/arvindanta/cr-test/commit/12203636775b3d7bfc07689249cddfda06400bc6))
+* **fw-toast-message:** updated styles for toast-message ([#402](https://github.com/arvindanta/cr-test/issues/402)) ([acf41a8](https://github.com/arvindanta/cr-test/commit/acf41a8d68930a60b5e73ca511f27bf78537017b))
+* **fw-toast:** added box shadow to toast message ([#368](https://github.com/arvindanta/cr-test/issues/368)) ([cb7131d](https://github.com/arvindanta/cr-test/commit/cb7131df99eed9679596f08213a4251c4346d54d))
+* **label-styles:** fixed label styling as per DSM ([6a4f28a](https://github.com/arvindanta/cr-test/commit/6a4f28a4ccf2694be6d415e4334c7397554ddd57))
+* **modal:** display modal-title only when there is a title-text ([#464](https://github.com/arvindanta/cr-test/issues/464)) ([8f09641](https://github.com/arvindanta/cr-test/commit/8f096410b090da37f2099a5a792d034bdf64555e))
+* **modal:** modal description line height reduced to support multiline  ([#413](https://github.com/arvindanta/cr-test/issues/413)) ([d25e74e](https://github.com/arvindanta/cr-test/commit/d25e74e03bf68f0c65db45a863e2f088b7bab64e))
+* **modal:** slider variant position justify-content to flex-end ([#369](https://github.com/arvindanta/cr-test/issues/369)) ([a7aff28](https://github.com/arvindanta/cr-test/commit/a7aff28865afe48f5105fe833282a069b2a9f7dd))
+* **popover:** make overlay height to 100% of parent height not 100vh,use allowDeselect in datepicker ([#438](https://github.com/arvindanta/cr-test/issues/438)) ([5773c95](https://github.com/arvindanta/cr-test/commit/5773c9543cd46c0cff903311d057193d32eba4f4))
+* **popover:** prevent scroll chaining and expose props for min, max heights ([#287](https://github.com/arvindanta/cr-test/issues/287)) ([f7525f0](https://github.com/arvindanta/cr-test/commit/f7525f0a93973673e0a17adfd9c10d1bfb8c3791))
+* **radio-group:** fix radio group to be compatiable with react version ([#267](https://github.com/arvindanta/cr-test/issues/267)) ([c8efaec](https://github.com/arvindanta/cr-test/commit/c8efaec6030333aa026a2d28cff67c3fe3b7b2f3))
+* **radio-group:** remove call to componentOnReady in connected callback ([#260](https://github.com/arvindanta/cr-test/issues/260)) ([10de155](https://github.com/arvindanta/cr-test/commit/10de155d50641a202d82ab013c41ae167393ff2b))
+* **radio:** remove class from host and apply on container to avoid getting overridden by global styles ([#307](https://github.com/arvindanta/cr-test/issues/307)) ([df5c5c9](https://github.com/arvindanta/cr-test/commit/df5c5c9ad34ccbf967f84a45485d0630f4afb88e))
+* **select-state-text:** remove stateText prop from select and use fieldcontrol ([#467](https://github.com/arvindanta/cr-test/issues/467)) ([f7b0380](https://github.com/arvindanta/cr-test/commit/f7b0380afd548fd4d5f1239685dbb43b4db8476d))
+* **skeleton:** removing margin-bottom when skeleton count is one ([#389](https://github.com/arvindanta/cr-test/issues/389)) ([47c9b0e](https://github.com/arvindanta/cr-test/commit/47c9b0e288decab11c98012a2701bd10c22ddfae))
+* standardized height of all input elements to 32px ([#451](https://github.com/arvindanta/cr-test/issues/451)) ([e123470](https://github.com/arvindanta/cr-test/commit/e123470070d4052bc5d7bf94fd1f6fcf9341e89f))
+* stylelint and eslint fixes ([44a8aca](https://github.com/arvindanta/cr-test/commit/44a8aca57e669f8263d491bcb5034a8f1b0649c2))
+* tab-header attribute wrongly mentioned as fw-tab-header ([3c03859](https://github.com/arvindanta/cr-test/commit/3c03859120b2b78ec49c022100c11f6dde80f0f4))
+* **tab:** fix fw-tab to work with react typescript ([#285](https://github.com/arvindanta/cr-test/issues/285)) ([f93add1](https://github.com/arvindanta/cr-test/commit/f93add1919c8c9b0a9cf86c8a408141ef45203a2))
+* **tab:** remove class from host to avoid getting overridden by global styles ([#310](https://github.com/arvindanta/cr-test/issues/310)) ([b367032](https://github.com/arvindanta/cr-test/commit/b3670321e3d58c6a4dec99934e6a4c16dbabf406))
+* **tabs:** fix incorrect key press handling in tabs and accommodate child attrs ([#387](https://github.com/arvindanta/cr-test/issues/387)) ([6ad4aa0](https://github.com/arvindanta/cr-test/commit/6ad4aa03635e7f104c8ec44c14e9c4991837493e))
+* **tabs:** fix tabs activation on attribute change ([#388](https://github.com/arvindanta/cr-test/issues/388)) ([13e8497](https://github.com/arvindanta/cr-test/commit/13e84979ad6893d8ffe580a4538c631062b56c89))
+* **tabs:** remove vertical scrollbar for tabs nav ([#401](https://github.com/arvindanta/cr-test/issues/401)) ([70f9446](https://github.com/arvindanta/cr-test/commit/70f9446cb8962a8e547c64afb278e09fe6320061))
+* **toast:** copy event listeners when cloning the node for custom template ([#315](https://github.com/arvindanta/cr-test/issues/315)) ([2f58061](https://github.com/arvindanta/cr-test/commit/2f58061ecd1d3b40ed1788c0b485b352fdb05be6))
+* **toast:** remove styling from host to avoid styles getting overridden by global styles ([#306](https://github.com/arvindanta/cr-test/issues/306)) ([7b32ef1](https://github.com/arvindanta/cr-test/commit/7b32ef17045ea4edc8db7b6af2d9a2b0e675d859))
+* **tooltip:** updating tooltip radius, modal close button styling ([#424](https://github.com/arvindanta/cr-test/issues/424)) ([a39405a](https://github.com/arvindanta/cr-test/commit/a39405a0ca33544bcfd46f33798879065631ccc7))
+
+
+### Features
+
+* **accordion:**  Adding accordion component ([#327](https://github.com/arvindanta/cr-test/issues/327)) ([a8acabf](https://github.com/arvindanta/cr-test/commit/a8acabfe7bfeb69986e543067a65ec5e89f83694))
+* added fw-select ([e01f70f](https://github.com/arvindanta/cr-test/commit/e01f70f15405d3dfdfc97e02386ae2806906313b))
+* added popover to select and datepicker ([21bed13](https://github.com/arvindanta/cr-test/commit/21bed1371fe1cc4b7668cf01425f8993d4ceba52))
+* added props to parent so that same props need not be repeated in child ([9e5b712](https://github.com/arvindanta/cr-test/commit/9e5b7120245745b9a95147ba4a3ebbb5b10c73f3))
+* button variations, style corrections and loading state ([#264](https://github.com/arvindanta/cr-test/issues/264)) ([69b326c](https://github.com/arvindanta/cr-test/commit/69b326ca08ffb4820aa260a69fc4861a9e6efdc6))
+* **checkbox:** adding pointer cursor for checkbox container ([#411](https://github.com/arvindanta/cr-test/issues/411)) ([e9df0a5](https://github.com/arvindanta/cr-test/commit/e9df0a589830e3e41d8270bc08e6b79c92b994ab))
+* **component:** added fw-popover component ([dfbf462](https://github.com/arvindanta/cr-test/commit/dfbf4623ae2c749a4cf83a6c31e5fc6abbc1b285))
+* crayons-commons package to reuse common functionality ([ce5d5e9](https://github.com/arvindanta/cr-test/commit/ce5d5e99e21e7237b8fe117d43db30f36b340603))
+* **crayons-core:** changing structure of fw-tabs children components to enable yeilding headers ([#247](https://github.com/arvindanta/cr-test/issues/247)) ([c8055a4](https://github.com/arvindanta/cr-test/commit/c8055a4a41806fec917b3c3e3ccc93eb94aaef85))
+* **crayons-i18n:** crayons-i18n package to handle i18n translations ([#449](https://github.com/arvindanta/cr-test/issues/449)) ([74d0e5b](https://github.com/arvindanta/cr-test/commit/74d0e5b2c95ef6571e47b5cf140008995332f5b4))
+* **crayons:** improving modal composibility by introducing modal-title, modal-content, modal-footer ([4390b02](https://github.com/arvindanta/cr-test/commit/4390b021fc521d2c2c23648c791268dfe6cd71be))
+* **crayons:** modal - adding open method to the modal ([c550f21](https://github.com/arvindanta/cr-test/commit/c550f219ec4581421afad2faf59128b2ecd1e299))
+* css global styles setup ([bed2b16](https://github.com/arvindanta/cr-test/commit/bed2b168d7648b44706ae962fbbdea957ba257a8))
+* **css-utils:** Adding CSS Utils and related documentation ([#314](https://github.com/arvindanta/cr-test/issues/314)) ([49c0cc4](https://github.com/arvindanta/cr-test/commit/49c0cc48dffe9b6e0f711c471d709f02260d50c1))
+* **css-variables:** Namespace css variables ([#441](https://github.com/arvindanta/cr-test/issues/441)) ([4d4a910](https://github.com/arvindanta/cr-test/commit/4d4a9103825f6a015f6b61afbc9d4446dec11c83))
+* **custom-react-wrapper:** use Custom React Wrapper instead of Stencil's react wrapper ([3ae8667](https://github.com/arvindanta/cr-test/commit/3ae866717d763337acd42f1e13a2155275746022))
+* **data-table:** add table settings option to data table ([#399](https://github.com/arvindanta/cr-test/issues/399)) ([dbb11e2](https://github.com/arvindanta/cr-test/commit/dbb11e2dd974e75e2be4a961dbb379a32a80917a))
+* **data-table:** adding 'icon' cell variant, column text-align, icon button in row actions, selectAllRows api to data table ([#386](https://github.com/arvindanta/cr-test/issues/386)) ([8b55314](https://github.com/arvindanta/cr-test/commit/8b55314d6c7e232dfab22c82e2de8a6611d72d1d))
+* **data-table:** adding a column lock configuration to data table ([#454](https://github.com/arvindanta/cr-test/issues/454)) ([9a1545a](https://github.com/arvindanta/cr-test/commit/9a1545aa2dc8098649f5970ed95651d1a9269b0c))
+* **data-table:** adding column hide, column width, data formatting features for DataTables. ([#370](https://github.com/arvindanta/cr-test/issues/370)) ([de4e323](https://github.com/arvindanta/cr-test/commit/de4e32364e6d3b04e2570e5f03f8b37044802a24))
+* **data-table:** adding DataTable component ([#332](https://github.com/arvindanta/cr-test/issues/332)) ([5681084](https://github.com/arvindanta/cr-test/commit/5681084530dd368a77f7a67bc1c6a95402e7cf59))
+* **data-table:** adding select all rows to DataTable component ([#356](https://github.com/arvindanta/cr-test/issues/356)) ([39d2403](https://github.com/arvindanta/cr-test/commit/39d2403b26fc39bd4b2c22e81502bb0f08c4849f))
+* **data-table:** adding src prop to custom-cell-icon ([#470](https://github.com/arvindanta/cr-test/issues/470)) ([58d2cfa](https://github.com/arvindanta/cr-test/commit/58d2cfab2f3dd1dc35477b50145380bc2f5ba7f6))
+* **data-table:** adding style to the loading state of table ([#418](https://github.com/arvindanta/cr-test/issues/418)) ([febb9f2](https://github.com/arvindanta/cr-test/commit/febb9f2743a7c8120dbade2ff9aeaf279d4f7094))
+* **data-table:** custom cell implementation ([#351](https://github.com/arvindanta/cr-test/issues/351)) ([9e6e1fb](https://github.com/arvindanta/cr-test/commit/9e6e1fb2b27f39fdc48d11409cf06952b05690fd))
+* **data-table:** row actions feature added to fw-data-table component ([#361](https://github.com/arvindanta/cr-test/issues/361)) ([689ab40](https://github.com/arvindanta/cr-test/commit/689ab40d5a63f48d2aded07667cd6abbea092482))
+* **data-table:** showing shimmer on initial table load ([#422](https://github.com/arvindanta/cr-test/issues/422)) ([d2d7ff4](https://github.com/arvindanta/cr-test/commit/d2d7ff4a2e417f7bce8b5ac1a40b592d9b6cdcf5))
+* **date-picker:** add input type variant for single date and range selection datepicker ([#303](https://github.com/arvindanta/cr-test/issues/303)) ([f520401](https://github.com/arvindanta/cr-test/commit/f520401d356fbb34b6d93665634dc5be8beb83db))
+* **datepicker:** replacing moment-mini with date-fns to handle locale support ([#452](https://github.com/arvindanta/cr-test/issues/452)) ([306c432](https://github.com/arvindanta/cr-test/commit/306c432e376a290ee0707a0de973c1b997b605b0))
+* **dynamic-form:** form component dynamically constructed based on structured schema ([#364](https://github.com/arvindanta/cr-test/issues/364)) ([4acb560](https://github.com/arvindanta/cr-test/commit/4acb56068e1ddd80c2359cbb367c0a55aabbcf0e))
+* **event-standardisation:** Event Standardisation of input controls ([#423](https://github.com/arvindanta/cr-test/issues/423)) ([a04e7c3](https://github.com/arvindanta/cr-test/commit/a04e7c3a9d08ec9c8f752a006f82cb8c3f7968fd))
+* **file-uploader:** adding file-uploader component  ([#444](https://github.com/arvindanta/cr-test/issues/444)) ([0ac218c](https://github.com/arvindanta/cr-test/commit/0ac218c5da73c61714d9d4d3233e4bf927a01c3c))
+* **format-date:** format date using Intl.DateTimeFormat API ([#391](https://github.com/arvindanta/cr-test/issues/391)) ([4d5da20](https://github.com/arvindanta/cr-test/commit/4d5da20afb3a271aa19afdbffc1ca76f3ab1394a))
+* **format-number:** Format number component using Intl.NumberFormat API ([#333](https://github.com/arvindanta/cr-test/issues/333)) ([aed902d](https://github.com/arvindanta/cr-test/commit/aed902df7a2de2df89d40675c30ddc6df8d10831))
+* **fw-datepicker:** added stateText prop to the datepicker ([#448](https://github.com/arvindanta/cr-test/issues/448)) ([819b59b](https://github.com/arvindanta/cr-test/commit/819b59b771d9986d3c9f1dd8c92ca1b5c0b56e1d))
+* **fw-drag-container:** added drag/drop and sortable container ([#352](https://github.com/arvindanta/cr-test/issues/352)) ([6323475](https://github.com/arvindanta/cr-test/commit/6323475ec489dc58c90f779b8c3d5a44c3c787a0))
+* **fw-drag-item:** added feature to pin the position of fw-drag-item ([#363](https://github.com/arvindanta/cr-test/issues/363)) ([bc42808](https://github.com/arvindanta/cr-test/commit/bc42808ee7debd6b7b537747730ae28c5bc14f05))
+* **fw-form:** Focus on first error field, code samples, tests and a11y ([#381](https://github.com/arvindanta/cr-test/issues/381)) ([f759853](https://github.com/arvindanta/cr-test/commit/f759853362d41efbcf9ee6affc1b60c3930d8bcd))
+* **fw-icon-library:** fwIcon extensions and IconLibrary ([#340](https://github.com/arvindanta/cr-test/issues/340)) ([9e5ceb3](https://github.com/arvindanta/cr-test/commit/9e5ceb314095423a1c6788c911812b2f52f7a926))
+* **fw-input:** Added slots and modified styles for fw-input based on DSM ([#395](https://github.com/arvindanta/cr-test/issues/395)) ([1f5b846](https://github.com/arvindanta/cr-test/commit/1f5b8462f3a2781714adca13709d9b46bd89e8e4))
+* **fw-list-options:** added custom filter function ([#269](https://github.com/arvindanta/cr-test/issues/269)) ([73e0af3](https://github.com/arvindanta/cr-test/commit/73e0af359eb777399e00bab375fa3c72be462908)), closes [#275](https://github.com/arvindanta/cr-test/issues/275)
+* **fw-list-options:** base for fw-list-options ([9126aaa](https://github.com/arvindanta/cr-test/commit/9126aaaefb4271f3dbe7fba1a16092ae2150aee7))
+* **fw-list-options:** Moved the dynamic filter logic from fw-select to fw-list-options ([#286](https://github.com/arvindanta/cr-test/issues/286)) ([aed2184](https://github.com/arvindanta/cr-test/commit/aed2184ce41eb7e938ba64c091438a276e14931c))
+* **fw-list-options:** scroll to the last selected item on open ([#324](https://github.com/arvindanta/cr-test/issues/324)) ([e17ea83](https://github.com/arvindanta/cr-test/commit/e17ea8326da4e158c9e4260510b69aa1d64d4f6e))
+* **fw-menu:** added menu and menu-item ([#366](https://github.com/arvindanta/cr-test/issues/366)) ([57db59e](https://github.com/arvindanta/cr-test/commit/57db59e10527eedea07d5047e4f42f9d1af0e0e2))
+* **fw-popover:** added prop to focus on the content ([#336](https://github.com/arvindanta/cr-test/issues/336)) ([9e7eea6](https://github.com/arvindanta/cr-test/commit/9e7eea66a98e333c20bff936150ed9a1382f7aa3))
+* **fw-popover:** added show/hide event emitters and new props ([#268](https://github.com/arvindanta/cr-test/issues/268)) ([e369c1c](https://github.com/arvindanta/cr-test/commit/e369c1c7ba69f8287a6fe52a862a9dea01a4bcb9))
+* **fw-select-option:** added variants of select-option ([6b04d16](https://github.com/arvindanta/cr-test/commit/6b04d1683191a6ad28f1f160d9e2fac6650765a1))
+* **fw-select-option:** renamed props ([09a1811](https://github.com/arvindanta/cr-test/commit/09a1811496edb31ae80091aaca558b21f0b6f7df))
+* **fw-select:** added ARIA compatibility ([#330](https://github.com/arvindanta/cr-test/issues/330)) ([893808f](https://github.com/arvindanta/cr-test/commit/893808f457c8ee5072e80eb7ef4a478f8944d9ec))
+* **fw-select:** added keyboard navigation ([#316](https://github.com/arvindanta/cr-test/issues/316)) ([6f28bbe](https://github.com/arvindanta/cr-test/commit/6f28bbead8cfd199a75efd657fb8c090134fe7eb))
+* **fw-select:** added keyboard navigation support for tags in multiselect ([#322](https://github.com/arvindanta/cr-test/issues/322)) ([0d2caed](https://github.com/arvindanta/cr-test/commit/0d2caed1330a82382e8022b7517c45dcdbc4de6c))
+* **fw-select:** added mail variant ([#321](https://github.com/arvindanta/cr-test/issues/321)) ([2333ce6](https://github.com/arvindanta/cr-test/commit/2333ce69cc27915f611ccdad60f56b3d4e58c64c))
+* **fw-select:** added option to disable deselect already selected value ([#378](https://github.com/arvindanta/cr-test/issues/378)) ([1af11d3](https://github.com/arvindanta/cr-test/commit/1af11d334377c0ea007839ccffd43cff7cd1f86c))
+* **fw-select:** added prop to display avatar ([#293](https://github.com/arvindanta/cr-test/issues/293)) ([d923d16](https://github.com/arvindanta/cr-test/commit/d923d166495597bd8711e86aa181e08c19ce073c))
+* **fw-select:** added support for integer dataype for value ([#384](https://github.com/arvindanta/cr-test/issues/384)) ([ca1a4a0](https://github.com/arvindanta/cr-test/commit/ca1a4a0e9a23ce6286b482933aed3370ca0678f6))
+* **fw-tag:** added avatar variant for tag ([#290](https://github.com/arvindanta/cr-test/issues/290)) ([c568d06](https://github.com/arvindanta/cr-test/commit/c568d069d505b352f9d54e83f2f72e00ef5b7ddb))
+* **fw-tag:** added focusable prop and setFocus method ([#318](https://github.com/arvindanta/cr-test/issues/318)) ([d4e8489](https://github.com/arvindanta/cr-test/commit/d4e8489158afb068154c09f48944e644431979e0))
+* **fw-tag:** tags can be removed via backspace ([#300](https://github.com/arvindanta/cr-test/issues/300)) ([8f9576c](https://github.com/arvindanta/cr-test/commit/8f9576cc41c631e720b502f15f8b54449ed8a0d2))
+* **fw-toggle:** adding support for showicon and keyboard navigation ([#220](https://github.com/arvindanta/cr-test/issues/220)) ([535381c](https://github.com/arvindanta/cr-test/commit/535381c4962654a1a02d65dcbfff5455292c9039))
+* **i18n:** remove default value being passed to decorator ([#462](https://github.com/arvindanta/cr-test/issues/462)) ([dba8601](https://github.com/arvindanta/cr-test/commit/dba86010a83676c5a73753600656a5f04702d38f))
+* **i18n:** use json instead of js files ([#468](https://github.com/arvindanta/cr-test/issues/468)) ([bafe409](https://github.com/arvindanta/cr-test/commit/bafe409b4333f28581d172de183d38ed896f0ff1))
+* **inline-message:** adding inline messages feature ([#270](https://github.com/arvindanta/cr-test/issues/270)) ([d41d389](https://github.com/arvindanta/cr-test/commit/d41d3896c3b26797f373d6f7ef217612974854aa))
+* **input-state-text:** Added `hint-text` `warning-text` `error-text` props and slots and removed `state-text` prop ([#436](https://github.com/arvindanta/cr-test/issues/436)) ([4841237](https://github.com/arvindanta/cr-test/commit/4841237ecc907f13460a6832b8ff7385d05d0729))
+* **input:** expose css variables for margin and padding for input, tabs ([#380](https://github.com/arvindanta/cr-test/issues/380)) ([49a1741](https://github.com/arvindanta/cr-test/commit/49a17418882d05260f73426f738008be98f1df82))
+* **list-options:** applying event standardisation for list-options as well ([#432](https://github.com/arvindanta/cr-test/issues/432)) ([a8e1d7e](https://github.com/arvindanta/cr-test/commit/a8e1d7ec840a8905999cff2d5f9a0cbd71323ee2))
+* monorepo ([abc48c8](https://github.com/arvindanta/cr-test/commit/abc48c88f025d13dd321b75bb00782a62361aaf9))
+* **pagination:** compact pagination ([#335](https://github.com/arvindanta/cr-test/issues/335)) ([1bda7e2](https://github.com/arvindanta/cr-test/commit/1bda7e2769d959a9ab2afa4d059f8135e1fd4710))
+* **pill:** Adding pill component ([#357](https://github.com/arvindanta/cr-test/issues/357)) ([9a675e7](https://github.com/arvindanta/cr-test/commit/9a675e7f3dc984134f441c747d3722866aca162f))
+* **progress-loader:** Progress Loader Component ([#297](https://github.com/arvindanta/cr-test/issues/297)) ([ffca27f](https://github.com/arvindanta/cr-test/commit/ffca27fe953a6060fc8b20df8b1dc6387369606b))
+* removed redundent code in fw-select ([fa45ddf](https://github.com/arvindanta/cr-test/commit/fa45ddfdfeac2bb3a2d496c15f650dec0887d97e))
+* **skeleton:** skeleton component to handle progressive loading of contents ([#326](https://github.com/arvindanta/cr-test/issues/326)) ([d118aa9](https://github.com/arvindanta/cr-test/commit/d118aa9f9f62de6c563d56f2ed860971a7a2d308))
+* **slider:** adding slider variant to modal component ([#288](https://github.com/arvindanta/cr-test/issues/288)) ([4eef379](https://github.com/arvindanta/cr-test/commit/4eef379e990f7423a0bb0677d057539fdd3cbf68))
+* storybook global and package level dev setup ([25cf303](https://github.com/arvindanta/cr-test/commit/25cf3032fa3607fae1f1de746bb5a397d3a0a3d7))
+* **tabs:** expose public method to set active tab index from outside of fw-tabs ([#359](https://github.com/arvindanta/cr-test/issues/359)) ([7131acb](https://github.com/arvindanta/cr-test/commit/7131acb6ea3d08558f5dc6b2cf9838dc4305acdf))
+* **timepicker:** replace moment-mini with date-fns ([#459](https://github.com/arvindanta/cr-test/issues/459)) ([d668420](https://github.com/arvindanta/cr-test/commit/d668420a5ff90e41a0b1c4ef0a2c3f6602ef41dc))
+* **toggle-group:** Toggle group button supporting multiple selection ([#331](https://github.com/arvindanta/cr-test/issues/331)) ([3ec4eb9](https://github.com/arvindanta/cr-test/commit/3ec4eb9d50419c0b327dc82aa01172f17d82e938))
+* **toggle:** show icon for toggle by default ([#273](https://github.com/arvindanta/cr-test/issues/273)) ([f6358a6](https://github.com/arvindanta/cr-test/commit/f6358a6e6911d814cff86d156192c20883a1bcca))
+* **tooltip:** adding new tooltip component ([#312](https://github.com/arvindanta/cr-test/issues/312)) ([181f92a](https://github.com/arvindanta/cr-test/commit/181f92ad4064c37d9c35447dec816c48aff808f7))
+
+
+### BREAKING CHANGES
+
+* **crayons-core:** Text content passed in between fw-tab tags will now be considered as tab headers
+and text content within fw-panel tags will be tab contents
+
+* fix(crayons-core): remove text-decoration when anchor tag is passed
+
+Remove text underline and default color when anchor tag is passed in as child element for fw-tag
+
+* docs(crayons-core): adding spacing after fw-tabs in stories.mdx
+
+* docs(crayons-core): adding sample usage of fw-tabs in readme
+
+* test(crayons-core): adding test to verify rendering of child components for fw-panel
+
+* style(crayons-core): avoid using focus-visible pseudo class as it is not available in safari
+
+Replace focus-visible pseudo class with after pesudo element to be compatible across browsers
+
+* refactor(crayons-core): use shorter names for ids and remove unused class
+
+* test(crayons-core): fix test after structure change
+
+* refactor(crayons-core): rename fw-panel to fw-tab-panel to be more meaningful
+
+* refactor(crayons-core): accommodate backward compatibility
+
+Create fw-tab-panel dynamically when tab-header attribute is present for fw-tab for backward
+compatibility
+
+* refactor(crayons-core): remove redundant find statement and duplicate query selector
+
+* refactor(crayons-core): remove redundant filter method
+* **crayons:** 1. Changing visibility property to is-open property. 2.Modifying event names to
+lowercase.
+
+
+
+
+
 # 3.0.0-beta.30 (2022-03-11)
 
 
