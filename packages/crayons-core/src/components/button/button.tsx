@@ -170,7 +170,7 @@ export class Button {
           type={this.type}
           class={`
             fw-btn fw-btn--${this.color.toLowerCase()}
-            fw-btn--${this.size.toLowerCase()}
+            fw-btn--${this.size}
             ${this.loading ? 'fw-btn--loading' : ''}
             ${this.hasLabel ? 'fw-btn--has-label' : ''}
             ${this.hasBeforeLabel ? 'fw-btn--has-before' : ''}
