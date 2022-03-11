@@ -1,5 +1,5 @@
 {
-  "name": "crayons",
+  "name": "cr",
   "version": "3.0.0-beta.8",
   "description": "",
   "main": "index.js",
@@ -15,6 +15,8 @@
     "build": "lerna run build --stream",
     "code-sanity": "npm run lint",
     "check-version": "HUSKY_INSTALL=1 HUSKY_SKIP_HOOKS=1 lerna version --conventional-commits --no-push --no-git-tag-version",
+    "graduate": "HUSKY_INSTALL=1 HUSKY_SKIP_HOOKS=1 lerna version --conventional-upgrade --preid beta --conventional-commits --no-push --no-git-tag-version",
+    "next": "HUSKY_INSTALL=1 HUSKY_SKIP_HOOKS=1 lerna version --conventional-prerelease --preid beta --conventional-commits --no-push --no-git-tag-version",
     "clean-changelog": "lernacleanchangelog '**'",
     "docs:build": "node www/scripts/reorganize.js && vuepress build www",
     "docs:dev": "lerna run build --stream && node www/scripts/reorganize.js && vuepress dev www",
@@ -34,7 +36,7 @@
     "update-version:ci": "HUSKY_INSTALL=1 HUSKY_SKIP_HOOKS=1 lerna version --conventional-commits --no-push --yes && npm run clean-changelog && npm run update-lock"
   },
   "keywords": [],
-  "author": "",
+  "author": "cr",
   "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "^13.2.1",

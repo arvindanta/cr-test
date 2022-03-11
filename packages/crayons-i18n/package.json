@@ -1,11 +1,7 @@
 {
-  "name": "@freshworks/crayons-i18n",
-  "version": "1.4.0",
-  "description": "Crayons i18n Library",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/freshworks/crayons.git"
-  },
+  "name": "cr-i18n",
+  "version": "1.6.0",
+  "description": "cri18n",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -21,7 +17,7 @@
     "typescript",
     "stenciljs"
   ],
-  "author": "Freshworks Inc",
+  "author": "cri18n",
   "license": "MIT",
   "publishConfig": {
     "access": "public"

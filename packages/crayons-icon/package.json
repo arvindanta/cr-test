@@ -1,11 +1,7 @@
 {
-  "name": "@freshworks/crayons-icon",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/freshworks/crayons.git"
-  },
-  "version": "1.2.0",
-  "description": "Freshworks `Crayons-Icon` is an Icon library of SVGs.It also provides a NodeJS-CLI to optimize SVGs on the GO. ",
+  "name": "cr-icon",
+  "version": "1.4.0",
+  "description": "cr-icon ",
   "main": "dist/index.js",
   "bin": {
     "fw-icon-cli": "./bin/index.cli.js"
@@ -37,7 +33,7 @@
     "access": "public"
   },
   "license": "MIT",
-  "author": "Freshworks Inc",
+  "author": "cricon",
   "dependencies": {
     "chalk": "^5.0.0",
     "cli-alerts": "^1.2.2",

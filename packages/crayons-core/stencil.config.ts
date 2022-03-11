@@ -4,7 +4,7 @@ import { sass } from '@stencil/sass';
 
 import { generateJsonDocs } from './customElementDocGenerator';
 
-const packageName = 'crayons';
+const packageName = 'cr-core';
 export const config: Config = {
   autoprefixCss: true,
   namespace: packageName,
@@ -50,7 +50,7 @@ export const config: Config = {
       file: 'dist/docs.json',
     },
     reactOutputTarget({
-      componentCorePackage: `@freshworks/${packageName}`, // name in the package.json should be used
+      componentCorePackage: `${packageName}`, // name in the package.json should be used
       proxiesFile: './crayons-react/components.ts',
 
       // lazy load -> code splitting
