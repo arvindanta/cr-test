@@ -3,16 +3,11 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [3.1.0-beta.2](https://github.com/arvindanta/cr-test/compare/cr-core@3.1.0-beta.1...cr-core@3.1.0-beta.2) (2022-03-22)
-
+## [3.1.0-beta.2](https://github.com/arvindanta/cr-test/compare/cr-core@3.1.0-beta.1...cr-core@3.1.0-beta.2) (2022-03-22)
 
 ### Features
 
-* **changes:** changes ([15eeb3f](https://github.com/arvindanta/cr-test/commit/15eeb3f295a64773fe71e9dc2e903d8a7f2a838a))
-
-
-
-
+- **changes:** changes ([15eeb3f](https://github.com/arvindanta/cr-test/commit/15eeb3f295a64773fe71e9dc2e903d8a7f2a838a))
 
 ## [3.1.0-beta.1](https://github.com/arvindanta/cr-test/compare/cr-core@3.1.0-beta.0...cr-core@3.1.0-beta.1) (2022-03-22)
 
