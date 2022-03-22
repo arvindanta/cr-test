@@ -3,24 +3,11 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [3.1.2-beta.0](https://github.com/arvindanta/cr-test/compare/cr-core@3.1.0-beta.3...cr-core@3.1.2-beta.0) (2022-03-22)
-
-**Note:** Version bump only for package cr-core
-
-
-
-
-
-# [3.1.0-beta.3](https://github.com/arvindanta/cr-test/compare/cr-core@3.1.0-beta.2...cr-core@3.1.0-beta.3) (2022-03-22)
-
+## [3.1.0-beta.3](https://github.com/arvindanta/cr-test/compare/cr-core@3.1.0-beta.2...cr-core@3.1.0-beta.3) (2022-03-22)
 
 ### Features
 
-* **change sbtn:** btn ([5078a17](https://github.com/arvindanta/cr-test/commit/5078a173111653406c05eb3954eec34d2d28bc52))
-
-
-
-
+- **change sbtn:** btn ([5078a17](https://github.com/arvindanta/cr-test/commit/5078a173111653406c05eb3954eec34d2d28bc52))
 
 ## [3.1.0-beta.2](https://github.com/arvindanta/cr-test/compare/cr-core@3.1.0-beta.1...cr-core@3.1.0-beta.2) (2022-03-22)
 
