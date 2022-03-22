@@ -51,12 +51,12 @@ export class Button {
   /**
    * Caret indicator for the button, Default value is false.
    */
-  @Prop() showCaretIcon = true;
+  @Prop() showCaretIcon = false;
 
   /**
    *  Accepts the id of the fw-modal component to open it on click.
    */
-  @Prop() modalTriggerId = '';
+  @Prop() modalTriggerId = '23';
 
   /**
    * Accepts the id of the fw-file-uploader component to upload the file.
