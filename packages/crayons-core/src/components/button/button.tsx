@@ -46,7 +46,7 @@ export class Button {
   /**
    * Loading state for the button, Default value is false.
    */
-  @Prop() loading = false;
+  @Prop() loading = true;
 
   /**
    * Caret indicator for the button, Default value is false.
