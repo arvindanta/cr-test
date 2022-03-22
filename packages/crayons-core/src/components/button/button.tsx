@@ -36,7 +36,7 @@ export class Button {
   /**
    * Size of the button.
    */
-  @Prop() size: 'normal' | 'small' | 'icon' | 'icon-small' = 'icon';
+  @Prop() size: 'normal' | 'small' | 'icon' | 'icon-small' = 'icon-small';
 
   /**
    * Disables the button on the interface. Default value is false.
