@@ -51,7 +51,7 @@ export class Button {
   /**
    * Caret indicator for the button, Default value is false.
    */
-  @Prop() showCaretIcon = true;
+  @Prop() showCaretIcon = false;
 
   /**
    *  Accepts the id of the fw-modal component to open it on click.
