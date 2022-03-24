@@ -3,16 +3,11 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [3.4.0](https://github.com/arvindanta/cr-test/compare/cr-core@3.4.0-beta.5...cr-core@3.4.0) (2022-03-24)
-
+## 3.4.0 (2022-03-24)
 
 ### Features
 
-* **js:** shi ([d97f3ec](https://github.com/arvindanta/cr-test/commit/d97f3ec50bb1a5078ec8885833c12d2bf9451b26))
-
-
-
-
+- **js:** shi ([d97f3ec](https://github.com/arvindanta/cr-test/commit/d97f3ec50bb1a5078ec8885833c12d2bf9451b26))
 
 ## [3.4.0-beta.5](https://github.com/arvindanta/cr-test/compare/cr-core@3.4.0-beta.4...cr-core@3.4.0-beta.5) (2022-03-24)
 
