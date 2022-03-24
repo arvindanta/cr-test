@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.4.0-beta.3](https://github.com/arvindanta/cr-test/compare/cr-core@3.4.0-beta.2...cr-core@3.4.0-beta.3) (2022-03-24)
+
+
+### Features
+
+* **djd:** sjsj ([f5db97b](https://github.com/arvindanta/cr-test/commit/f5db97bd30000bbabe020df95ac99e60196efc38))
+
+
+
+
+
 ## [3.4.0-beta.2](https://github.com/arvindanta/cr-test/compare/cr-core@3.4.0-beta.1...cr-core@3.4.0-beta.2) (2022-03-24)
 
 ### Features
