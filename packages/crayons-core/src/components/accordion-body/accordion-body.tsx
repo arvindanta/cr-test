@@ -20,7 +20,7 @@ export class AccordionBody {
     return (
       <div
         class={{
-          'accordion-body': false,
+          'accordion-body': true,
           'collapsed': !this.expanded,
           'no-bounding-box': this.type === 'no_bounding_box',
         }}
