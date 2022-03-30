@@ -3,6 +3,55 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.4.1-beta.0](https://github.com/arvindanta/cr-test/compare/cr-core@3.4.0...cr-core@3.4.1-beta.0) (2022-03-30)
+
+### Bug Fixes
+
+- **v3:** v3 ([5a31ed5](https://github.com/arvindanta/cr-test/commit/5a31ed58a8faa957fa495fb519fc8cbca121fc78))
+
+## 3.4.0 (2022-03-24)
+
+### Features
+
+- **js:** shi ([d97f3ec](https://github.com/arvindanta/cr-test/commit/d97f3ec50bb1a5078ec8885833c12d2bf9451b26))
+
+## [3.4.0-beta.5](https://github.com/arvindanta/cr-test/compare/cr-core@3.4.0-beta.4...cr-core@3.4.0-beta.5) (2022-03-24)
+
+### Features
+
+- **sjsj:** s ([e2a6897](https://github.com/arvindanta/cr-test/commit/e2a689770108dd16f49df1ff0f459eab48acb58c))
+
+## [3.4.0-beta.4](https://github.com/arvindanta/cr-test/compare/cr-core@3.4.0-beta.3...cr-core@3.4.0-beta.4) (2022-03-24)
+
+### Features
+
+- **hjsjh:** s ([f9b691b](https://github.com/arvindanta/cr-test/commit/f9b691b581d77420e939f6552e9d83fdede02759))
+
+## [3.4.0-beta.3](https://github.com/arvindanta/cr-test/compare/cr-core@3.4.0-beta.2...cr-core@3.4.0-beta.3) (2022-03-24)
+
+### Features
+
+- **djd:** sjsj ([f5db97b](https://github.com/arvindanta/cr-test/commit/f5db97bd30000bbabe020df95ac99e60196efc38))
+
+## [3.4.0-beta.2](https://github.com/arvindanta/cr-test/compare/cr-core@3.4.0-beta.1...cr-core@3.4.0-beta.2) (2022-03-24)
+
+### Features
+
+- **asd:** asd ([421cf6c](https://github.com/arvindanta/cr-test/commit/421cf6c9c28042352b7934c00da011a62fdce4a9))
+
+## [3.4.0-beta.1](https://github.com/arvindanta/cr-test/compare/cr-core@3.4.0-beta.0...cr-core@3.4.0-beta.1) (2022-03-24)
+
+### Features
+
+- **asd:** as ([faf95b8](https://github.com/arvindanta/cr-test/commit/faf95b8777a0cb62fdd5b677efd4cca11a5603b6))
+
+## [3.4.0-beta.0](https://github.com/arvindanta/cr-test/compare/cr-core@3.3.1...cr-core@3.4.0-beta.0) (2022-03-24)
+
+### Features
+
+- **hjdj:** jwsldja ([4db90f2](https://github.com/arvindanta/cr-test/commit/4db90f2906866c3d1c42d1666b944a524b403738))
+- **sjs:** sjsj' ([7e49bc7](https://github.com/arvindanta/cr-test/commit/7e49bc70d8457596c545b6ff035aaf37a5b2674b))
+
 ## [3.3.0-beta.1](https://github.com/arvindanta/cr-test/compare/cr-core@3.3.0-beta.0...cr-core@3.3.0-beta.1) (2022-03-23)
 
 ### Features

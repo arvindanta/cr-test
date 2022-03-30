@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.7.1-beta.0](https://github.com/arvindanta/cr-test/compare/cr-i18n@1.7.0...cr-i18n@1.7.1-beta.0) (2022-03-30)
+
+### Bug Fixes
+
+- **v3:** v3 ([5a31ed5](https://github.com/arvindanta/cr-test/commit/5a31ed58a8faa957fa495fb519fc8cbca121fc78))
+
 ## 1.7.0 (2022-03-11)
 
 ### Features
