@@ -8,7 +8,7 @@
     "components"
   ],
   "author": "cr-core",
-  "version": "3.4.0",
+  "version": "3.4.1-beta.0",
   "description": "cr cores",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
