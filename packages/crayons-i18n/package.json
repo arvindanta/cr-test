@@ -1,7 +1,7 @@
 {
   "name": "cr-i18n",
   "version": "1.7.0",
-  "description": "cri18n",
+  "description": "cri18nss",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
