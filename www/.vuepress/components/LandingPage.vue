@@ -52,7 +52,7 @@ export default {
           title: 'Get Started',
           description:
             'Craft great apps with an open-source and framework-agnostic component library.',
-          link: `${path}${urlMap.docs},
+          link: path + urlMap.docs,
         },
         {
           name: 'sample-app-repo',
