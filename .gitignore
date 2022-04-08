@@ -1,5 +1,0 @@
-.DS_Store
-node_modules/
-storybook-dist/
-.idea/
-www/.vuepress/public/cr-core*
