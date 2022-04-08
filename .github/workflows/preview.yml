@@ -30,7 +30,7 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
-          branch: next
+          branch: deploy
           folder: www-dist
           target-folder: ${{ steps.generate_slug.outputs.slug }}
       - name: Publish env
