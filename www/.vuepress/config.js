@@ -54,7 +54,7 @@ const websiteUrl = 'https://crayons.freshworks.com';
 
 module.exports = {
   title: 'Crayons',
-  base: '/',
+  base: '/cr-test/',
   description: 'A refreshed design library for the Freshworks Developers.',
   dest: 'www-dist',
   head: [...headScripts, ['link', { rel: 'icon', href: '/favicon.png' }]],

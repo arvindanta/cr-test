@@ -43,6 +43,8 @@ const { urlMap } = constants;
 export default {
   name: 'landingPage',
   data() {
+    const path = location?.href.slice(0, -1);
+    console.log('path', path);
     return {
       welcomeLinks: [
         {
@@ -50,7 +52,7 @@ export default {
           title: 'Get Started',
           description:
             'Craft great apps with an open-source and framework-agnostic component library.',
-          link: urlMap.docs,
+          link: `${path}${urlMap.docs},
         },
         {
           name: 'sample-app-repo',

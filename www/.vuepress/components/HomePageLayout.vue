@@ -1,7 +1,9 @@
 <template>
   <div class="home-page-container">
+    <ClientOnly>
     <LandingPage />
     <AppFooter />
+    <ClientOnly />
   </div>
 </template>
 
