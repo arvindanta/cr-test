@@ -265,17 +265,17 @@ function App() {
 
 ## Properties
 
-| Property         | Attribute          | Description                                                                  | Type                                                       | Default     |
-| ---------------- | ------------------ | ---------------------------------------------------------------------------- | ---------------------------------------------------------- | ----------- |
-| `color`          | `color`            | Identifier of  the theme based on which the button is styled.                | `"danger" \| "link" \| "primary" \| "secondary" \| "text"` | `'primary'` |
-| `disabled`       | `disabled`         | Disables the button on the interface. Default value is false.                | `boolean`                                                  | `false`     |
-| `fileUploaderId` | `file-uploader-id` | Accepts the id of the fw-file-uploader component to upload the file.         | `string`                                                   | `''`        |
-| `loading`        | `loading`          | Loading state for the button, Default value is false.                        | `boolean`                                                  | `false`     |
-| `modalTriggerId` | `modal-trigger-id` | Accepts the id of the fw-modal component to open it on click.                | `string`                                                   | `''`        |
-| `showCaretIcon`  | `show-caret-icon`  | Caret indicator for the button, Default value is false.                      | `boolean`                                                  | `false`     |
-| `size`           | `size`             | Size of the button.                                                          | `"icon" \| "icon-small" \| "normal" \| "small"`            | `'normal'`  |
-| `throttleDelay`  | `throttle-delay`   | Sets the delay for throttle in milliseconds. Defaults to 200 milliseconds.   | `number`                                                   | `200`       |
-| `type`           | `type`             | Button type based on which actions are performed when the button is clicked. | `"button" \| "submit"`                                     | `'button'`  |
+| Property         | Attribute          | Description                                                                  | Type                                                       | Default        |
+| ---------------- | ------------------ | ---------------------------------------------------------------------------- | ---------------------------------------------------------- | -------------- |
+| `color`          | `color`            | Identifier of  the theme based on which the button is styled.                | `"danger" \| "link" \| "primary" \| "secondary" \| "text"` | `'primary'`    |
+| `disabled`       | `disabled`         | Disables the button on the interface. Default value is false.                | `boolean`                                                  | `false`        |
+| `fileUploaderId` | `file-uploader-id` | Accepts the id of the fw-file-uploader component to upload the file.         | `string`                                                   | `''`           |
+| `loading`        | `loading`          | Loading state for the button, Default value is false.                        | `boolean`                                                  | `true`         |
+| `modalTriggerId` | `modal-trigger-id` | Accepts the id of the fw-modal component to open it on click.                | `string`                                                   | `'23'`         |
+| `showCaretIcon`  | `show-caret-icon`  | Caret indicator for the button, Default value is false.                      | `boolean`                                                  | `true`         |
+| `size`           | `size`             | Size of the button.                                                          | `"icon" \| "icon-small" \| "normal" \| "small"`            | `'icon-small'` |
+| `throttleDelay`  | `throttle-delay`   | Sets the delay for throttle in milliseconds. Defaults to 200 milliseconds.   | `number`                                                   | `200`          |
+| `type`           | `type`             | Button type based on which actions are performed when the button is clicked. | `"button" \| "submit"`                                     | `'button'`     |
 
 
 ## Events
