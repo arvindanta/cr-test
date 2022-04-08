@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "index.html",
-    "revision": "7347ea6ad1fbd2b87fe102bc6f6668c3"
+    "revision": "4cf396e94ba9a010449eedb593bb71b3"
   },
   {
     "url": "build/index.esm.js",
