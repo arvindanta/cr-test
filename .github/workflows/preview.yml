@@ -43,4 +43,4 @@ jobs:
           header: Preview environment
           message: |
             ## Preview environment
-            https://github.com/arvindanta.github.io/cr-test/${{ env.PR_NUMBER }}/
+            https://arvindanta.github.io/cr-test/${{ env.PR_NUMBER }}/
